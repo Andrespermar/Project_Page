@@ -32,3 +32,9 @@ Map with observations from 2022 and 2021
 
 Map with observations from 2021
 <a href="Map8.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">View Map</a>
+
+Map with observations from 2021 and 2020
+<a href="Map9.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">View Map</a>
+
+Map with observations from 2020
+<a href="Map10.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">View Map</a>
