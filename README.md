@@ -44,3 +44,9 @@ Map with observations from 2020 and 2019
 
 Map with observations from 2019
 <a href="Map12.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">View Map</a>
+
+Map with observations from 2019 and 2018
+<a href="Map13.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">View Map</a>
+
+Map with observations from 2018
+<a href="Map14.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">View Map</a>
