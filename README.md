@@ -2,13 +2,13 @@
 <div class="container">
     <h2>Legend</h2>
     <p class="legend">
-        Red = 2024<br>
-        Blue = 2023<br>
-        Yellow = 2022<br>
-        Green = 2021<br>
-        White = 2020<br>
-        Purple = 2019<br>
-        Black = 2018
+        Red = Year 2024<br>
+        Blue = Year 2023<br>
+        Yellow = Year 2022<br>
+        Green = Year 2021<br>
+        White = Year 2020<br>
+        Purple = Year 2019<br>
+        Black = Year 2018
     </p>
     
     <h2>Map Links</h2>
