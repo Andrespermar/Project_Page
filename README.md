@@ -8,7 +8,8 @@
         Green = Year 2021<br>
         White = Year 2020<br>
         Purple = Year 2019<br>
-        Black = Year 2018
+        Black = Year 2018<br>
+        Hovering over a datapoint will show the date, blokid, commodity, and variety.
     </p>
     
     <h2>Map Links</h2>
