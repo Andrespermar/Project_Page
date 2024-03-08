@@ -1,5 +1,3 @@
-MPC_Thinning_Map
-
 Legend:
 <br>Red = 2024
 <br>Blue = 2023
