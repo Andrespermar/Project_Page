@@ -9,7 +9,7 @@
         White = Year 2020<br>
         Purple = Year 2019<br>
         Black = Year 2018<br>
-        <strong>Hovering over a datapoint will show the count, date, blockid, commodity, and variety</strong>
+        <b>Hovering over a datapoint will show the count, date, blockid, commodity, and variety</b>
     </p>
     
     <h2>Map Links</h2>
