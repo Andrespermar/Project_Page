@@ -21,3 +21,8 @@ Map with observations from 2024 and 2023
 Map with observations from 2023
 <a href="Map4.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Full Map</a>
 
+Map with observations from 2023 and 2022
+<a href="Map5.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Full Map</a>
+
+Map with observations from 2022
+<a href="Map6.html" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Full Map</a>
