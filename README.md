@@ -24,7 +24,7 @@
         <a href="Map8.html" class="button">Map with observations from 2021</a><br>
         <a href="Map9.html" class="button">Map with observations from 2021 and 2020</a><br>
         <a href="Map10.html" class="button">Map with observations from 2020</a><br>
-        <a href="Map10.html" class="button">Map with observations from 2020 and 2019</a><br>
+        <a href="Map11.html" class="button">Map with observations from 2020 and 2019</a><br>
         <a href="Map12.html" class="button">Map with observations from 2019</a><br>
         <a href="Map13.html" class="button">Map with observations from 2019 and 2018</a><br>
         <a href="Map14.html" class="button">Map with observations from 2018</a><br>
