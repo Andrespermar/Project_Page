@@ -1,18 +1,8 @@
 
 <div class="container">
     <h2>Legend</h2>
-    <p class="legend">
-        Red = Year 2024<br>
-        Blue = Year 2023<br>
-        Yellow = Year 2022<br>
-        Green = Year 2021<br>
-        White = Year 2020<br>
-        Purple = Year 2019<br>
-        Black = Year 2018<br>
-        <b>Hovering over a datapoint will show the count, date, blockid, commodity, and variety</b>
-    </p>
     
-    <h2>Map Links</h2>
+    <h2>MPC Thinning Maps</h2>
     <h2>Legend</h2>
     <p><small>
         Red = Year 2024<br>
