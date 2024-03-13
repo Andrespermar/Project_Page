@@ -29,11 +29,7 @@
         <a href="Map13.html" class="button">Map with observations from 2019 and 2018</a><br>
         <a href="Map14.html" class="button">Map with observations from 2018</a><br>
     </div>
-
-    <h2>SOI Pipelines</h2>
-    <div>
-        <a href="DataPipeline.html" class="button">SOI pipeline notebook</a><br>
-    </div>
+    
 </div>
 
 
