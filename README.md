@@ -1,9 +1,8 @@
 
 <div class="container">
-    <h2>Legend</h2>
-    
+
     <h2>MPC Thinning Maps</h2>
-    <h2>Legend</h2>
+    <p>Legend</p>
     <p><small>
         Red = Year 2024<br>
         Blue = Year 2023<br>
