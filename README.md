@@ -3,7 +3,7 @@
 
     <h2>Domo Variable Documentation</h2>
     <p><small>This is a work in progress. We will update as we work with different variables</small></p>
-    <a href="[url](https://docs.google.com/spreadsheets/d/1TEvW5yqPPnTzV-YtmE1tXRx61rM2w0HRaB003TdOaDY/edit#gid=0)">Variable Documentation</a>
+    <a href="https://docs.google.com/spreadsheets/d/1TEvW5yqPPnTzV-YtmE1tXRx61rM2w0HRaB003TdOaDY/edit#gid=0" target="_blank">Variable Documentation</a>
     
     <h2>MPC Thinning Maps</h2>
     <p>Legend</p>
