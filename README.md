@@ -31,6 +31,7 @@
     </div>
 
     <h2>SOI Pipelines</h2>
+    <div>
         <a href="DataPipeline.html" class="button">SOI pipeline notebook</a><br>
     </div>
 </div>
