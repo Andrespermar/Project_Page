@@ -14,7 +14,7 @@
     
     <h2>Map Links</h2>
     <h2>Legend</h2>
-    <p class="legend">
+    <p><small>
         Red = Year 2024<br>
         Blue = Year 2023<br>
         Yellow = Year 2022<br>
@@ -22,7 +22,7 @@
         White = Year 2020<br>
         Purple = Year 2019<br>
         Black = Year 2018<br>
-        <b>Hovering over a datapoint will show the count, date, blockid, commodity, and variety</b>
+        <b>Hovering over a datapoint will show the count, date, blockid, commodity, and variety</b></small></p>
     <div>
         <a href="Map1.html" class="button">Map with all observations (2018-2024)</a><br>
         <a href="Map2.html" class="button">Map with observations from 2024</a><br>
