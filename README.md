@@ -16,7 +16,7 @@
         Purple = Year 2019<br>
         Black = Year 2018<br>
         <b>Hovering over a datapoint will show the count, date, blockid, commodity, and variety</b><br>
-        <b>***Last updated on April 23, 2024***</b></small></p>
+        <b>***Last updated on April 24, 2024***</b></small></p>
     <div>
         <a href="Map1.html" class="button">Map with all observations (2018-2024)</a><br>
         <a href="Map2.html" class="button">Map with observations from 2024</a><br>
