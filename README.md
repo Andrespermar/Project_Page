@@ -35,6 +35,9 @@
 
     <h2>SOI Pipeline</h2>
         <a href="DataPipeline.html" class="button">Data Pipeline Notebook</a><br>
+
+    <h2>Sales Data Insights Notebook</h2>
+        <a href="SalesPattern.html" class="button">Sales Insights Notebook</a><br>    
     </div>
     
 </div>
