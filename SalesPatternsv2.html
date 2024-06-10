@@ -14600,7 +14600,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Load Sales data</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;C:/Users/User/Documents/Working Directory/MPC FaceForward Sales.csv&quot;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;C:/Users/andy_/Downloads/MPC FaceForward Sales.csv&quot;</span><span class="p">)</span>
 
 <span class="c1">#Define summer fruits</span>
 <span class="n">summer</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;APRICOT&#39;</span><span class="p">,</span> <span class="s1">&#39;BLACK PLUM&#39;</span><span class="p">,</span> <span class="s1">&#39;NECTARINE&#39;</span><span class="p">,</span> <span class="s1">&#39;ORG BALCK PLUM&#39;</span><span class="p">,</span> <span class="s1">&#39;ORG NECTARINE&#39;</span><span class="p">,</span> <span class="s1">&#39;ORG PEACH&#39;</span><span class="p">,</span> <span class="s1">&#39;ORG PLUOT&#39;</span><span class="p">,</span> <span class="s1">&#39;ORG RED PLUM&#39;</span><span class="p">,</span>
@@ -14688,27 +14688,27 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>0</th>
       <td>4-M FRUIT DISTRIBUTORS, INC.</td>
-      <td>[SLEGSWD, SLEGSCH, 2LTRCH, 12/2BAGCH, SLETRCH,...</td>
+      <td>[VF25WD, 12/2BAGCH, VF28WD, SLETRCH, VF28CH, V...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>99 CENTS ONLY STORES, LLC.</td>
-      <td>[10/2 BAG, 12/2BAGCH]</td>
+      <td>[12/2BAGCH, 10/2 BAG]</td>
     </tr>
     <tr>
       <th>2</th>
       <td>A &amp; J PRODUCE CORP.</td>
-      <td>[2LTRCH, VFEVWD, VF25WD, VFEVCH, SLETRWD]</td>
+      <td>[VF25WD, SLETRWD, 2LTRCH, VFEVWD, VFEVCH]</td>
     </tr>
     <tr>
       <th>3</th>
       <td>A &amp; M PRODUCE SALES</td>
-      <td>[2LGS, 2LTRCH, VF25CH]</td>
+      <td>[2LGS, VF25CH, 2LTRCH]</td>
     </tr>
     <tr>
       <th>4</th>
       <td>A &amp; T TRADING COMPANY LLC</td>
-      <td>[12/2SBAGCH, 12/2BAGCH, VF25CH, VFEVCH]</td>
+      <td>[12/2BAGCH, VF25CH, 12/2SBAGCH, VFEVCH]</td>
     </tr>
     <tr>
       <th>...</th>
@@ -14716,33 +14716,33 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>567</th>
+      <th>568</th>
       <td>XPERT LOGISTICS LLC</td>
       <td>[VF25CH]</td>
     </tr>
     <tr>
-      <th>568</th>
+      <th>569</th>
       <td>YOSEMITE WHOLESALE CO.</td>
       <td>[2LGS, 2LTRCH, 2LGSCH]</td>
     </tr>
     <tr>
-      <th>569</th>
-      <td>YOUNGSTOWN GRAPE DISTRIBUTORS, INC.</td>
-      <td>[2LERTR27CH, VF25WD, VF25CH, 2LGS, VF24WD, 2LE...</td>
-    </tr>
-    <tr>
       <th>570</th>
-      <td>Z &amp; S DISTRIBUTING CO., INC.</td>
-      <td>[2LGSCH, VF25WD, VF25CH, 2LGS, VF24WD]</td>
+      <td>YOUNGSTOWN GRAPE DISTRIBUTORS, INC.</td>
+      <td>[VF25WD, VF24WD, 2LERTR27CH, 2LGS, VF25CH, 2LE...</td>
     </tr>
     <tr>
       <th>571</th>
+      <td>Z &amp; S DISTRIBUTING CO., INC.</td>
+      <td>[VF25WD, VF24WD, 2LGSCH, 2LGS, VF25CH]</td>
+    </tr>
+    <tr>
+      <th>572</th>
       <td>ZAN FRUITS, LLC</td>
       <td>[VF25CH]</td>
     </tr>
   </tbody>
 </table>
-<p>572 rows × 2 columns</p>
+<p>573 rows × 2 columns</p>
 </div>
 </div>
 
@@ -14768,7 +14768,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">com_counts</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Commodity&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -14776,137 +14776,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <span class="c1">#Display it</span>
 <span class="n">com_counts</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Commodity</th>
-      <th>Count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>PEACH</td>
-      <td>203506</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>NECTARINE</td>
-      <td>163031</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>W PEACH</td>
-      <td>62956</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>APRICOT</td>
-      <td>14118</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>PLUOT</td>
-      <td>11113</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>ORG PEACH</td>
-      <td>11000</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>RED PLUM</td>
-      <td>4906</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>UTL PLUMS</td>
-      <td>321</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>ORG PLUOT</td>
-      <td>62</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>UTL PLUOTS</td>
-      <td>8</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="The-styles-that-sold-the-most">The styles that sold the most<a class="anchor-link" href="#The-styles-that-sold-the-most">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of each style bought</span>
-<span class="n">style_counts</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Style&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-<span class="n">style_counts</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Style&#39;</span><span class="p">,</span> <span class="s1">&#39;Count&#39;</span><span class="p">]</span>
-
-<span class="c1"># Display it</span>
-<span class="n">style_counts</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -14947,35 +14816,60 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Style</th>
+      <th>Commodity</th>
       <th>Count</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>SLETRCH</td>
-      <td>69973</td>
+      <td>PEACH</td>
+      <td>204263</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>PLACE</td>
-      <td>64552</td>
+      <td>NECTARINE</td>
+      <td>163899</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>VF28CH</td>
-      <td>52677</td>
+      <td>W PEACH</td>
+      <td>63120</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>VF25CH</td>
-      <td>50561</td>
+      <td>APRICOT</td>
+      <td>14185</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>VFEVCH</td>
-      <td>45939</td>
+      <td>PLUOT</td>
+      <td>11115</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>ORG PEACH</td>
+      <td>11084</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>RED PLUM</td>
+      <td>4934</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>UTL PLUMS</td>
+      <td>321</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>ORG PLUOT</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>UTL PLUOTS</td>
+      <td>8</td>
     </tr>
   </tbody>
 </table>
@@ -14995,7 +14889,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Styles-that-sold-the-least">Styles that sold the least<a class="anchor-link" href="#Styles-that-sold-the-least">&#182;</a></h3>
+<h3 id="The-styles-that-sold-the-most">The styles that sold the most<a class="anchor-link" href="#The-styles-that-sold-the-most">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15007,7 +14901,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">style_counts</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of each style bought</span>
+<span class="n">style_counts</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Style&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">style_counts</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Style&#39;</span><span class="p">,</span> <span class="s1">&#39;Count&#39;</span><span class="p">]</span>
+
+<span class="c1"># Display it</span>
+<span class="n">style_counts</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15054,29 +14953,29 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   </thead>
   <tbody>
     <tr>
-      <th>440</th>
-      <td>5.5#</td>
-      <td>1</td>
+      <th>0</th>
+      <td>SLETRCH</td>
+      <td>69212</td>
     </tr>
     <tr>
-      <th>441</th>
-      <td>6/3.5# CLM</td>
-      <td>1</td>
+      <th>1</th>
+      <td>VF25CH</td>
+      <td>50558</td>
     </tr>
     <tr>
-      <th>442</th>
-      <td>2LERNS27#</td>
-      <td>1</td>
+      <th>2</th>
+      <td>VFEVCH</td>
+      <td>39780</td>
     </tr>
     <tr>
-      <th>443</th>
-      <td>110/5 NTRI</td>
-      <td>1</td>
+      <th>3</th>
+      <td>12/2BAGCH</td>
+      <td>27837</td>
     </tr>
     <tr>
-      <th>444</th>
-      <td>CHOICE</td>
-      <td>1</td>
+      <th>4</th>
+      <td>2LERTR31CH</td>
+      <td>23246</td>
     </tr>
   </tbody>
 </table>
@@ -15096,7 +14995,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Commodities-Each-Country-Bought">Commodities Each Country Bought<a class="anchor-link" href="#Commodities-Each-Country-Bought">&#182;</a></h3>
+<h3 id="Styles-that-sold-the-least">Styles that sold the least<a class="anchor-link" href="#Styles-that-sold-the-least">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15108,21 +15007,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Before anything we fix country names and spelling</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;SOUTH KOREA&#39;</span><span class="p">,</span> <span class="s1">&#39;KOREA&#39;</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;US&#39;</span><span class="p">,</span> <span class="s1">&#39;USA&#39;</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;COLUMBIA&#39;</span><span class="p">,</span> <span class="s1">&#39;COLOMBIA&#39;</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;CAN&#39;</span><span class="p">,</span> <span class="s1">&#39;CANADA&#39;</span><span class="p">)</span>
-
-
-<span class="c1"># Group by CustomerID and aggregate the unique styles purchased</span>
-<span class="c1">#countries = df.groupby(&#39;Ship To Country&#39;)[&#39;Style&#39;].apply(list).reset_index()</span>
-
-<span class="n">countries</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">)[</span><span class="s1">&#39;Commodity&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">x</span><span class="p">)))</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-
-
-<span class="c1"># Styles each customer has bought</span>
-<span class="n">countries</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">style_counts</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15163,265 +15048,35 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Ship To Country</th>
-      <th>Commodity</th>
+      <th>Style</th>
+      <th>Count</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>ASIA</td>
-      <td>[VALENCIAS]</td>
+      <th>191</th>
+      <td>V/F-NU</td>
+      <td>2</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>AUSTRALIA</td>
-      <td>[NECTARINE, nan, PEACH, W PEACH, MANDARINS, W ...</td>
+      <th>192</th>
+      <td>2LERNS27LB</td>
+      <td>1</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>BAHAMAS</td>
-      <td>[NECTARINE, VALENCIAS, BLK PLUM]</td>
+      <th>193</th>
+      <td>2LERNS31#</td>
+      <td>1</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>BRAZIL</td>
-      <td>[NECTARINE, PEACH, W PEACH, PRUNE, W NECT, BLK...</td>
+      <th>194</th>
+      <td>14-2# BAGS</td>
+      <td>1</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>CANADA</td>
-      <td>[BELL PEPPR, nan, ORG VAL, IS APRICOT, ASIAN P...</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>CHINA</td>
-      <td>[VALENCIAS, PEACH, PLUOT, nan, W PEACH, PRUNE,...</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>COLOMBIA</td>
-      <td>[NECTARINE, PEACH, NAVEL, BLK PLUM]</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>COSTA RICA</td>
-      <td>[NECTARINE, PEACH, BLK PLUM, DONUT WPCH, POMES]</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>DOMINICAN REPUBLIC</td>
-      <td>[NECTARINE, nan, PEACH, LEMON, NAVEL, GRAPES]</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>DUBAI</td>
-      <td>[NECTARINE, PEACH, W PEACH, W NECT, BLK PLUM, ...</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>ECUADOR</td>
-      <td>[NECTARINE, nan, PEACH, BLK PLUM, NAVEL, GRAPES]</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>EL SALVADOR</td>
-      <td>[NECTARINE, LEMON, PEACH, BLK PLUM, KIWI, DONU...</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>ENGLAND</td>
-      <td>[NECTARINE]</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>EXPORT</td>
-      <td>[NECTARINE, PEACH, W PEACH, W NECT, BLK PLUM, ...</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>FIJI ISLAND</td>
-      <td>[NECTARINE, PEACH, BLK PLUM]</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>FIJI ISLANDS</td>
-      <td>[GRAPES]</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>FRENCH POLYNESIA</td>
-      <td>[NECTARINE, PEACH, W PEACH, PLUOT, W NECT, BLK...</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>GUATEMALA</td>
-      <td>[NECTARINE, PEACH, MANDARINS, BLK PLUM, KIWI, ...</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>HONDURAS</td>
-      <td>[NECTARINE, RED PLUM, PEACH, PLUOT, BLK PLUM, ...</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>HONG KONG</td>
-      <td>[NECTARINE, RED PLUM, PEACH, W PEACH, PRUNE, W...</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>HOUNDURAS</td>
-      <td>[PEACH, NAVEL, BLK PLUM, POMES]</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>ICELAND</td>
-      <td>[GRAPES]</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>INDIA</td>
-      <td>[W PEACH, PLUOT, W NECT, BLK PLUM, BERRIES, DO...</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>INDONESIA</td>
-      <td>[NECTARINE, RED PLUM, PEACH, W PEACH, LEMON, P...</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>JAPAN</td>
-      <td>[VALENCIAS, PEACH, W PEACH, W NECT, NAVEL, DON...</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>KOREA</td>
-      <td>[VALENCIAS, NAVEL, GRAPES, LEMON]</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>KUWAIT</td>
-      <td>[PEACH, BLK PLUM]</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>MALAYSIA</td>
-      <td>[NECTARINE, VALENCIAS, PEACH, W PEACH, PRUNE, ...</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>MEXICO</td>
-      <td>[NECTARINE, LEMON, PEACH, MANDARINS, W NECT, B...</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>MIDDLE EAST</td>
-      <td>[NECTARINE, PEACH, W PEACH, DONUT WPCH]</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>NEW ZEALAND</td>
-      <td>[NECTARINE, PEACH, W PEACH, PLUOT, W NECT, BLK...</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>NICARAGUA</td>
-      <td>[NECTARINE, PEACH, NAVEL, BLK PLUM]</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>PANAMA</td>
-      <td>[NECTARINE, RED PLUM, PEACH, PLUOT, BLK PLUM, ...</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>PERU</td>
-      <td>[NAVEL, KIWI]</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>PHILIPPINES</td>
-      <td>[NECTARINE, PEACH, W PEACH, BLK PLUM, POMES]</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>PHILLIPINES</td>
-      <td>[VALENCIAS, NAVEL, BLK PLUM]</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>PUERTO RICO</td>
-      <td>[NECTARINE, PEACH, POMES, ASIAN PEAR, BLK PLUM...</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>QATAR</td>
-      <td>[RED PLUM, W PEACH, MANDARINS, W NECT, BLK PLU...</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>REP. OF SINGAPORE</td>
-      <td>[NECTARINE, nan, PEACH, W PEACH, PLUOT, VALENC...</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>REPUBLIC SINGAPORE</td>
-      <td>[VALENCIAS]</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>RUSSIA</td>
-      <td>[W PEACH, W NECT]</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>SAUDI ARABIA</td>
-      <td>[NECTARINE, PEACH, W PEACH, PLUOT, W NECT, BLK...</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>SINGAPORE</td>
-      <td>[NECTARINE, nan, PEACH, W PEACH, MANDARINS, W ...</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>SOUTH AMERICA</td>
-      <td>[NECTARINE]</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>SOUTH E ASIA</td>
-      <td>[GRAPES]</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>TAIWAN</td>
-      <td>[VALENCIAS, nan, W PEACH, PLUOT, W NECT, BLK P...</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>THAILAND</td>
-      <td>[W PEACH, W NECT, DONUT WPCH]</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>THIALAND</td>
-      <td>[BLK PLUM]</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>UNITED ARAB EMIRATES</td>
-      <td>[NECTARINE, PEACH, W PEACH, IS APRICOT, W NECT...</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>USA</td>
-      <td>[UTL PCHS, nan, FRUIT MED, ORG VAL, IS APRICOT...</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>VIETNAM</td>
-      <td>[NECTARINE, W PEACH, BLK PLUM, KIWI, DONUT WPC...</td>
+      <th>195</th>
+      <td>6/4# CLM</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -15441,7 +15096,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Contries-That-Bought-the-Most">Contries That Bought the Most<a class="anchor-link" href="#Contries-That-Bought-the-Most">&#182;</a></h3>
+<h3 id="Commodities-Each-Country-Bought">Commodities Each Country Bought<a class="anchor-link" href="#Commodities-Each-Country-Bought">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15453,12 +15108,26 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number bought</span>
-<span class="n">country_count</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-<span class="n">country_count</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Country&#39;</span><span class="p">,</span> <span class="s1">&#39;Count&#39;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Before anything we fix country names and spelling</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;SOUTH KOREA&#39;</span><span class="p">,</span> <span class="s1">&#39;KOREA&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;US&#39;</span><span class="p">,</span> <span class="s1">&#39;USA&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;COLUMBIA&#39;</span><span class="p">,</span> <span class="s1">&#39;COLOMBIA&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;CAN&#39;</span><span class="p">,</span> <span class="s1">&#39;CANADA&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;FIJI ISLAND&#39;</span><span class="p">,</span> <span class="s1">&#39;FIJI ISLAND&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;HOUNDURAS&#39;</span><span class="p">,</span> <span class="s1">&#39;HONDURAS&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;PHILLIPINES&#39;</span><span class="p">,</span> <span class="s1">&#39;PHILIPPINES&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;REP. OF SINGAPORE&#39;</span><span class="p">,</span> <span class="s1">&#39;SINGAPORE&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;REPUBLIC SINGAPORE&#39;</span><span class="p">,</span> <span class="s1">&#39;SINGAPORE&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;THIALAND&#39;</span><span class="p">,</span> <span class="s1">&#39;THAILAND&#39;</span><span class="p">)</span>
 
-<span class="c1"># Display the counts</span>
-<span class="n">country_count</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="c1"># Group by CustomerID and aggregate the unique styles purchased</span>
+<span class="c1">#countries = df.groupby(&#39;Ship To Country&#39;)[&#39;Style&#39;].apply(list).reset_index()</span>
+
+<span class="n">countries</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">)[</span><span class="s1">&#39;Commodity&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">x</span><span class="p">)))</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+
+<span class="c1"># Styles each customer has bought</span>
+<span class="n">countries</span>
 </pre></div>
 
      </div>
@@ -15499,35 +15168,210 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Country</th>
-      <th>Count</th>
+      <th>Ship To Country</th>
+      <th>Commodity</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>USA</td>
-      <td>717760</td>
+      <td>AUSTRALIA</td>
+      <td>[NECTARINE, PEACH, W PEACH]</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>CANADA</td>
-      <td>101643</td>
+      <td>BAHAMAS</td>
+      <td>[NECTARINE]</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>TAIWAN</td>
-      <td>6620</td>
+      <td>BRAZIL</td>
+      <td>[APRICOT, PEACH, W PEACH, NECTARINE]</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>KOREA</td>
-      <td>2648</td>
+      <td>CANADA</td>
+      <td>[PLUOT, UTL PLUMS, ORG PEACH, APRICOT, RED PLU...</td>
     </tr>
     <tr>
       <th>4</th>
+      <td>CHINA</td>
+      <td>[PLUOT, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>COLOMBIA</td>
+      <td>[PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>COSTA RICA</td>
+      <td>[PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>DOMINICAN REPUBLIC</td>
+      <td>[PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>DUBAI</td>
+      <td>[NECTARINE, APRICOT, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>ECUADOR</td>
+      <td>[PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>EL SALVADOR</td>
+      <td>[APRICOT, PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>ENGLAND</td>
+      <td>[NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>EXPORT</td>
+      <td>[NECTARINE, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>FIJI ISLAND</td>
+      <td>[PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>FRENCH POLYNESIA</td>
+      <td>[PLUOT, APRICOT, NECTARINE, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>GUATEMALA</td>
+      <td>[PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>HONDURAS</td>
+      <td>[PLUOT, PEACH, RED PLUM, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>HONG KONG</td>
+      <td>[APRICOT, RED PLUM, NECTARINE, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>INDIA</td>
+      <td>[PLUOT, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>INDONESIA</td>
+      <td>[APRICOT, RED PLUM, NECTARINE, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>JAPAN</td>
+      <td>[PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>KUWAIT</td>
+      <td>[PEACH]</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>MALAYSIA</td>
+      <td>[NECTARINE, APRICOT, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>23</th>
       <td>MEXICO</td>
-      <td>2551</td>
+      <td>[APRICOT, PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>MIDDLE EAST</td>
+      <td>[PEACH, W PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>NEW ZEALAND</td>
+      <td>[PLUOT, PEACH, W PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>NICARAGUA</td>
+      <td>[PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>PANAMA</td>
+      <td>[PLUOT, PEACH, RED PLUM, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>PHILIPPINES</td>
+      <td>[PEACH, W PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>PUERTO RICO</td>
+      <td>[APRICOT, PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>QATAR</td>
+      <td>[RED PLUM, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>RUSSIA</td>
+      <td>[W PEACH]</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>SAUDI ARABIA</td>
+      <td>[PLUOT, APRICOT, NECTARINE, PEACH, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>SINGAPORE</td>
+      <td>[PLUOT, ORG PEACH, APRICOT, NECTARINE, PEACH, ...</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>SOUTH AMERICA</td>
+      <td>[NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>TAIWAN</td>
+      <td>[PLUOT, W PEACH]</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>THAILAND</td>
+      <td>[W PEACH]</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>UNITED ARAB EMIRATES</td>
+      <td>[APRICOT, PEACH, W PEACH, NECTARINE]</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>USA</td>
+      <td>[PLUOT, UTL PLUMS, ORG PEACH, APRICOT, RED PLU...</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>VIETNAM</td>
+      <td>[NECTARINE, W PEACH]</td>
     </tr>
   </tbody>
 </table>
@@ -15547,7 +15391,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Countries-that-Bought-the-Least">Countries that Bought the Least<a class="anchor-link" href="#Countries-that-Bought-the-Least">&#182;</a></h3>
+<h3 id="Contries-That-Bought-the-Most">Contries That Bought the Most<a class="anchor-link" href="#Contries-That-Bought-the-Most">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15559,8 +15403,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">country_count</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
-<span class="c1">#country_count</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number bought</span>
+<span class="n">country_count</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Ship To Country&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">country_count</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Country&#39;</span><span class="p">,</span> <span class="s1">&#39;Count&#39;</span><span class="p">]</span>
+
+<span class="c1"># Display the counts</span>
+<span class="n">country_count</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15607,28 +15455,130 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   </thead>
   <tbody>
     <tr>
-      <th>46</th>
-      <td>ASIA</td>
+      <th>0</th>
+      <td>USA</td>
+      <td>393045</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>CANADA</td>
+      <td>47316</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>MEXICO</td>
+      <td>1405</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>TAIWAN</td>
+      <td>755</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>SINGAPORE</td>
+      <td>511</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Countries-that-Bought-the-Least">Countries that Bought the Least<a class="anchor-link" href="#Countries-that-Bought-the-Least">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">country_count</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+<span class="c1">#country_count</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>35</th>
+      <td>THAILAND</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>47</th>
-      <td>ICELAND</td>
+      <th>36</th>
+      <td>RUSSIA</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>48</th>
-      <td>SOUTH E ASIA</td>
-      <td>1</td>
+      <th>37</th>
+      <td>FIJI ISLAND</td>
+      <td>2</td>
     </tr>
     <tr>
-      <th>49</th>
+      <th>38</th>
       <td>ENGLAND</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>50</th>
-      <td>FIJI ISLANDS</td>
+      <th>39</th>
+      <td>KUWAIT</td>
       <td>1</td>
     </tr>
   </tbody>
@@ -15658,7 +15608,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Summarizing key sales metrics by country</span>
@@ -15701,7 +15651,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
@@ -15736,126 +15686,116 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>0</th>
-      <td>ASIA</td>
-      <td>3,429.00</td>
-      <td>6,858.00</td>
-      <td>2</td>
+      <td>AUSTRALIA</td>
+      <td>3,573.27</td>
+      <td>214,396.07</td>
+      <td>60</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>864.00</td>
+      <td>4,812.00</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>AUSTRALIA</td>
-      <td>3,023.85</td>
-      <td>5,648,546.15</td>
-      <td>1868</td>
-      <td>14.02</td>
-      <td>26,197.47</td>
-      <td>266,907.00</td>
+      <td>BAHAMAS</td>
+      <td>576.00</td>
+      <td>1,728.00</td>
+      <td>3</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>160.00</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>BAHAMAS</td>
-      <td>748.34</td>
-      <td>11,225.08</td>
-      <td>15</td>
-      <td>0.00</td>
-      <td>0.00</td>
-      <td>804.00</td>
+      <td>BRAZIL</td>
+      <td>708.71</td>
+      <td>150,246.93</td>
+      <td>212</td>
+      <td>1.13</td>
+      <td>239.66</td>
+      <td>5,333.00</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>BRAZIL</td>
-      <td>749.13</td>
-      <td>305,645.76</td>
-      <td>408</td>
-      <td>2.78</td>
-      <td>1,135.57</td>
-      <td>14,772.00</td>
+      <td>CANADA</td>
+      <td>1,691.58</td>
+      <td>80,038,987.14</td>
+      <td>47316</td>
+      <td>44.54</td>
+      <td>2,107,312.32</td>
+      <td>3,727,148.00</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>CANADA</td>
-      <td>2,037.21</td>
-      <td>207,067,653.08</td>
-      <td>101643</td>
-      <td>84.58</td>
-      <td>8,596,806.61</td>
-      <td>9,696,971.00</td>
+      <td>CHINA</td>
+      <td>551.21</td>
+      <td>3,307.25</td>
+      <td>6</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>231.00</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>CHINA</td>
-      <td>1,147.65</td>
-      <td>1,758,199.05</td>
-      <td>1532</td>
-      <td>3.04</td>
-      <td>4,654.85</td>
-      <td>143,086.00</td>
+      <td>COLOMBIA</td>
+      <td>1,147.40</td>
+      <td>265,049.95</td>
+      <td>231</td>
+      <td>-5.54</td>
+      <td>-1,278.92</td>
+      <td>22,045.00</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>COLOMBIA</td>
-      <td>1,235.67</td>
-      <td>442,368.75</td>
-      <td>358</td>
-      <td>-2.23</td>
-      <td>-799.63</td>
-      <td>34,259.00</td>
+      <td>COSTA RICA</td>
+      <td>1,751.53</td>
+      <td>404,602.42</td>
+      <td>231</td>
+      <td>0.75</td>
+      <td>173.09</td>
+      <td>24,717.00</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>COSTA RICA</td>
-      <td>1,789.31</td>
-      <td>486,692.63</td>
-      <td>272</td>
-      <td>3.88</td>
-      <td>1,055.13</td>
-      <td>29,043.00</td>
+      <td>DOMINICAN REPUBLIC</td>
+      <td>1,016.00</td>
+      <td>2,032.00</td>
+      <td>2</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>160.00</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>DOMINICAN REPUBLIC</td>
-      <td>2,084.08</td>
-      <td>135,465.30</td>
-      <td>65</td>
-      <td>-0.99</td>
-      <td>-64.44</td>
-      <td>7,832.00</td>
+      <td>DUBAI</td>
+      <td>1,061.21</td>
+      <td>211,180.27</td>
+      <td>199</td>
+      <td>-16.04</td>
+      <td>-3,192.00</td>
+      <td>10,815.00</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>DUBAI</td>
-      <td>1,052.79</td>
-      <td>275,830.57</td>
-      <td>262</td>
-      <td>-9.85</td>
-      <td>-2,580.11</td>
-      <td>14,447.00</td>
+      <td>ECUADOR</td>
+      <td>1,101.40</td>
+      <td>155,296.75</td>
+      <td>141</td>
+      <td>-5.26</td>
+      <td>-741.76</td>
+      <td>13,840.00</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>ECUADOR</td>
-      <td>1,652.30</td>
-      <td>1,591,167.14</td>
-      <td>963</td>
-      <td>29.94</td>
-      <td>28,833.24</td>
-      <td>112,662.00</td>
+      <td>EL SALVADOR</td>
+      <td>1,017.03</td>
+      <td>204,423.00</td>
+      <td>201</td>
+      <td>2.19</td>
+      <td>440.06</td>
+      <td>13,286.00</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>EL SALVADOR</td>
-      <td>1,107.18</td>
-      <td>301,153.05</td>
-      <td>272</td>
-      <td>-1.73</td>
-      <td>-471.71</td>
-      <td>18,534.00</td>
-    </tr>
-    <tr>
-      <th>12</th>
       <td>ENGLAND</td>
       <td>3,780.00</td>
       <td>3,780.00</td>
@@ -15865,307 +15805,227 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>420.00</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>12</th>
       <td>EXPORT</td>
-      <td>2,709.58</td>
-      <td>755,973.56</td>
-      <td>279</td>
-      <td>0.49</td>
-      <td>137.78</td>
-      <td>39,428.00</td>
+      <td>1,477.61</td>
+      <td>63,537.35</td>
+      <td>43</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>4,311.00</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>FIJI ISLAND</td>
+      <td>558.00</td>
+      <td>1,116.00</td>
+      <td>2</td>
+      <td>126.00</td>
+      <td>252.00</td>
+      <td>80.00</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>FIJI ISLAND</td>
-      <td>797.00</td>
-      <td>3,188.00</td>
-      <td>4</td>
-      <td>166.00</td>
-      <td>664.00</td>
-      <td>240.00</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>FIJI ISLANDS</td>
-      <td>11,655.00</td>
-      <td>11,655.00</td>
-      <td>1</td>
-      <td>2,299.50</td>
-      <td>2,299.50</td>
-      <td>630.00</td>
-    </tr>
-    <tr>
-      <th>16</th>
       <td>FRENCH POLYNESIA</td>
-      <td>647.03</td>
-      <td>23,940.25</td>
-      <td>37</td>
-      <td>2.43</td>
-      <td>90.00</td>
-      <td>985.00</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>GUATEMALA</td>
-      <td>1,529.00</td>
-      <td>677,346.41</td>
-      <td>443</td>
-      <td>0.51</td>
-      <td>226.77</td>
-      <td>40,498.00</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>HONDURAS</td>
-      <td>1,070.24</td>
-      <td>53,512.20</td>
-      <td>50</td>
-      <td>-20.82</td>
-      <td>-1,041.18</td>
-      <td>3,372.00</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>HONG KONG</td>
-      <td>1,426.68</td>
-      <td>216,855.37</td>
-      <td>152</td>
-      <td>9.58</td>
-      <td>1,455.71</td>
-      <td>12,496.00</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>HOUNDURAS</td>
-      <td>1,649.42</td>
-      <td>19,793.00</td>
-      <td>12</td>
-      <td>-12.22</td>
-      <td>-146.65</td>
-      <td>1,070.00</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>ICELAND</td>
-      <td>2,808.00</td>
-      <td>5,616.00</td>
-      <td>2</td>
-      <td>0.00</td>
-      <td>0.00</td>
-      <td>312.00</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>INDIA</td>
-      <td>1,963.63</td>
-      <td>68,726.91</td>
-      <td>35</td>
-      <td>109.99</td>
-      <td>3,849.57</td>
-      <td>4,020.00</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>INDONESIA</td>
-      <td>624.17</td>
-      <td>145,431.19</td>
-      <td>233</td>
-      <td>1.47</td>
-      <td>341.62</td>
-      <td>6,491.00</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>JAPAN</td>
-      <td>1,830.03</td>
-      <td>281,824.73</td>
-      <td>154</td>
-      <td>116.70</td>
-      <td>17,971.87</td>
-      <td>18,356.00</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>KOREA</td>
-      <td>1,393.09</td>
-      <td>3,688,906.71</td>
-      <td>2648</td>
-      <td>13.12</td>
-      <td>34,751.37</td>
-      <td>254,539.00</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>KUWAIT</td>
-      <td>810.75</td>
-      <td>1,621.50</td>
-      <td>2</td>
-      <td>64.48</td>
-      <td>128.96</td>
-      <td>48.00</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>MALAYSIA</td>
-      <td>945.10</td>
-      <td>366,698.51</td>
-      <td>388</td>
-      <td>-23.29</td>
-      <td>-9,038.16</td>
-      <td>32,557.00</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>MEXICO</td>
-      <td>2,909.00</td>
-      <td>7,420,871.20</td>
-      <td>2551</td>
-      <td>0.79</td>
-      <td>2,005.99</td>
-      <td>563,184.00</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>MIDDLE EAST</td>
-      <td>522.16</td>
-      <td>15,142.75</td>
-      <td>29</td>
-      <td>-8.92</td>
-      <td>-258.64</td>
-      <td>771.00</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>NEW ZEALAND</td>
-      <td>1,621.77</td>
-      <td>1,008,741.05</td>
-      <td>622</td>
-      <td>49.29</td>
-      <td>30,661.13</td>
-      <td>75,811.00</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>NICARAGUA</td>
-      <td>768.16</td>
-      <td>16,899.62</td>
-      <td>22</td>
-      <td>0.00</td>
-      <td>0.00</td>
-      <td>966.00</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>PANAMA</td>
-      <td>1,274.03</td>
-      <td>89,181.91</td>
-      <td>70</td>
-      <td>3.17</td>
-      <td>222.15</td>
-      <td>5,479.00</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>PERU</td>
-      <td>1,569.50</td>
-      <td>1,352,910.16</td>
-      <td>862</td>
-      <td>50.14</td>
-      <td>43,222.95</td>
-      <td>90,099.00</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>PHILIPPINES</td>
-      <td>664.33</td>
-      <td>10,629.30</td>
-      <td>16</td>
-      <td>90.99</td>
-      <td>1,455.85</td>
-      <td>530.00</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>PHILLIPINES</td>
-      <td>888.61</td>
-      <td>23,103.75</td>
+      <td>662.45</td>
+      <td>17,223.80</td>
       <td>26</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>2,747.00</td>
+      <td>714.00</td>
     </tr>
     <tr>
-      <th>36</th>
+      <th>15</th>
+      <td>GUATEMALA</td>
+      <td>1,362.14</td>
+      <td>385,486.30</td>
+      <td>283</td>
+      <td>-1.59</td>
+      <td>-449.91</td>
+      <td>24,301.00</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>HONDURAS</td>
+      <td>859.57</td>
+      <td>41,259.40</td>
+      <td>48</td>
+      <td>-1.20</td>
+      <td>-57.72</td>
+      <td>2,732.00</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>HONG KONG</td>
+      <td>1,105.69</td>
+      <td>116,097.21</td>
+      <td>105</td>
+      <td>0.36</td>
+      <td>38.18</td>
+      <td>7,528.00</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>INDIA</td>
+      <td>432.62</td>
+      <td>2,595.75</td>
+      <td>6</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>73.00</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>INDONESIA</td>
+      <td>417.08</td>
+      <td>41,708.35</td>
+      <td>100</td>
+      <td>2.21</td>
+      <td>221.39</td>
+      <td>1,530.00</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>JAPAN</td>
+      <td>1,100.06</td>
+      <td>8,800.50</td>
+      <td>8</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>630.00</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>KUWAIT</td>
+      <td>1,078.65</td>
+      <td>1,078.65</td>
+      <td>1</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>27.00</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>MALAYSIA</td>
+      <td>624.24</td>
+      <td>26,217.92</td>
+      <td>42</td>
+      <td>2.48</td>
+      <td>104.22</td>
+      <td>1,554.00</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>MEXICO</td>
+      <td>2,954.14</td>
+      <td>4,150,570.61</td>
+      <td>1405</td>
+      <td>-27.72</td>
+      <td>-38,944.13</td>
+      <td>252,267.00</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>MIDDLE EAST</td>
+      <td>641.29</td>
+      <td>10,902.00</td>
+      <td>17</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>600.00</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>NEW ZEALAND</td>
+      <td>1,474.84</td>
+      <td>302,342.82</td>
+      <td>205</td>
+      <td>93.14</td>
+      <td>19,094.34</td>
+      <td>27,351.00</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>NICARAGUA</td>
+      <td>778.67</td>
+      <td>4,672.00</td>
+      <td>6</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>320.00</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>PANAMA</td>
+      <td>1,420.79</td>
+      <td>39,782.00</td>
+      <td>28</td>
+      <td>0.48</td>
+      <td>13.35</td>
+      <td>2,325.00</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>PHILIPPINES</td>
+      <td>1,041.03</td>
+      <td>9,369.30</td>
+      <td>9</td>
+      <td>161.76</td>
+      <td>1,455.85</td>
+      <td>490.00</td>
+    </tr>
+    <tr>
+      <th>29</th>
       <td>PUERTO RICO</td>
-      <td>1,082.51</td>
-      <td>76,858.35</td>
-      <td>71</td>
+      <td>714.35</td>
+      <td>32,145.85</td>
+      <td>45</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>8,163.00</td>
+      <td>3,696.00</td>
     </tr>
     <tr>
-      <th>37</th>
+      <th>30</th>
       <td>QATAR</td>
-      <td>586.56</td>
-      <td>29,914.75</td>
-      <td>51</td>
-      <td>28.18</td>
-      <td>1,437.25</td>
-      <td>1,153.00</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>REP. OF SINGAPORE</td>
-      <td>978.10</td>
-      <td>480,245.64</td>
-      <td>491</td>
-      <td>-19.13</td>
-      <td>-9,391.67</td>
-      <td>33,552.00</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>REPUBLIC SINGAPORE</td>
-      <td>1,335.70</td>
-      <td>6,678.50</td>
-      <td>5</td>
+      <td>189.57</td>
+      <td>1,327.00</td>
+      <td>7</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>846.00</td>
+      <td>60.00</td>
     </tr>
     <tr>
-      <th>40</th>
+      <th>31</th>
       <td>RUSSIA</td>
-      <td>1,619.50</td>
-      <td>4,858.50</td>
-      <td>3</td>
+      <td>1,667.25</td>
+      <td>3,334.50</td>
+      <td>2</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>135.00</td>
+      <td>95.00</td>
     </tr>
     <tr>
-      <th>41</th>
+      <th>32</th>
       <td>SAUDI ARABIA</td>
-      <td>232.06</td>
-      <td>129,951.80</td>
-      <td>560</td>
-      <td>0.41</td>
-      <td>229.75</td>
-      <td>12,867.00</td>
+      <td>268.23</td>
+      <td>87,176.25</td>
+      <td>325</td>
+      <td>0.03</td>
+      <td>10.00</td>
+      <td>8,521.00</td>
     </tr>
     <tr>
-      <th>42</th>
+      <th>33</th>
       <td>SINGAPORE</td>
-      <td>1,671.66</td>
-      <td>620,186.36</td>
-      <td>371</td>
-      <td>8.40</td>
-      <td>3,115.65</td>
-      <td>32,163.00</td>
+      <td>1,119.09</td>
+      <td>571,856.10</td>
+      <td>511</td>
+      <td>-3.54</td>
+      <td>-1,807.80</td>
+      <td>28,504.00</td>
     </tr>
     <tr>
-      <th>43</th>
+      <th>34</th>
       <td>SOUTH AMERICA</td>
       <td>1,200.00</td>
       <td>4,800.00</td>
@@ -16175,74 +16035,54 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>960.00</td>
     </tr>
     <tr>
-      <th>44</th>
-      <td>SOUTH E ASIA</td>
-      <td>4,173.75</td>
-      <td>4,173.75</td>
-      <td>1</td>
-      <td>0.00</td>
-      <td>0.00</td>
-      <td>225.00</td>
-    </tr>
-    <tr>
-      <th>45</th>
+      <th>35</th>
       <td>TAIWAN</td>
-      <td>1,758.45</td>
-      <td>11,640,947.02</td>
-      <td>6620</td>
-      <td>-0.81</td>
-      <td>-5,360.96</td>
-      <td>815,352.00</td>
+      <td>1,771.40</td>
+      <td>1,337,408.88</td>
+      <td>755</td>
+      <td>-23.42</td>
+      <td>-17,683.06</td>
+      <td>93,956.00</td>
     </tr>
     <tr>
-      <th>46</th>
+      <th>36</th>
       <td>THAILAND</td>
-      <td>379.01</td>
-      <td>2,653.10</td>
-      <td>7</td>
-      <td>12.19</td>
-      <td>85.30</td>
-      <td>138.00</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>THIALAND</td>
-      <td>440.00</td>
-      <td>5,280.00</td>
-      <td>12</td>
+      <td>462.40</td>
+      <td>924.80</td>
+      <td>2</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>480.00</td>
+      <td>64.00</td>
     </tr>
     <tr>
-      <th>48</th>
+      <th>37</th>
       <td>UNITED ARAB EMIRATES</td>
-      <td>485.50</td>
-      <td>239,352.60</td>
-      <td>493</td>
+      <td>578.62</td>
+      <td>189,785.80</td>
+      <td>328</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>15,214.00</td>
+      <td>11,509.00</td>
     </tr>
     <tr>
-      <th>49</th>
+      <th>38</th>
       <td>USA</td>
-      <td>2,244.38</td>
-      <td>1,610,923,605.98</td>
-      <td>717760</td>
-      <td>74.56</td>
-      <td>53,515,945.49</td>
-      <td>77,229,844.58</td>
+      <td>2,183.82</td>
+      <td>858,338,006.26</td>
+      <td>393045</td>
+      <td>79.37</td>
+      <td>31,194,195.26</td>
+      <td>40,579,730.87</td>
     </tr>
     <tr>
-      <th>50</th>
+      <th>39</th>
       <td>VIETNAM</td>
-      <td>582.76</td>
-      <td>22,144.75</td>
-      <td>38</td>
+      <td>798.75</td>
+      <td>3,195.00</td>
+      <td>4</td>
       <td>0.00</td>
       <td>0.00</td>
-      <td>993.00</td>
+      <td>194.00</td>
     </tr>
   </tbody>
 </table>
@@ -16255,12 +16095,23 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="ANOVA">ANOVA<a class="anchor-link" href="#ANOVA">&#182;</a></h3>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">stats</span>
@@ -16301,14 +16152,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>{&#39;ANOVA Sale Price&#39;: F_onewayResult(statistic=25.39347769104354, pvalue=9.414887238392052e-233),
- &#39;ANOVA Profit&#39;: F_onewayResult(statistic=4.0064774624890545, pvalue=6.992198656709641e-20)}</pre>
+<pre>{&#39;ANOVA Sale Price&#39;: F_onewayResult(statistic=31.892446108037465, pvalue=3.304727601342938e-235),
+ &#39;ANOVA Profit&#39;: F_onewayResult(statistic=2.6491364358604743, pvalue=1.0053673443573345e-07)}</pre>
 </div>
 
 </div>
@@ -16324,7 +16175,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><p>P-values are much smaller than 0.05, indicating that there are statistically significant differences in the average sale prices across different countries. This means that at least one country's average sale price is significantly different from the others. Both tests show significant differences in sale prices and profits among the countries. <strong>In other words: The country you sell to matters when it comes to profits and sale prices</strong></p>
+<p><p>P-values are much smaller than 0.05, indicating that there are statistically significant differences in the average sale prices across different countries. This means that at least one country's average sale price is significantly different from the others. Both tests show significant differences in sale prices and profits among the countries.</p>
 
 </div>
 </div>
@@ -16398,28 +16249,28 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <table class="simpletable">
 <caption>OLS Regression Results</caption>
 <tr>
-  <th>Dep. Variable:</th>       <td>Sale Price</td>    <th>  R-squared:         </th>  <td>   0.990</td>  
+  <th>Dep. Variable:</th>       <td>Sale Price</td>    <th>  R-squared:         </th>  <td>   0.988</td>  
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th>  <td>   0.990</td>  
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th>  <td>   0.988</td>  
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>  <td>1.407e+07</td> 
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>  <td>5.472e+06</td> 
 </tr>
 <tr>
-  <th>Date:</th>             <td>Mon, 03 Jun 2024</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
+  <th>Date:</th>             <td>Mon, 10 Jun 2024</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>   
 </tr>
 <tr>
-  <th>Time:</th>                 <td>09:52:02</td>     <th>  Log-Likelihood:    </th> <td>-6.6291e+06</td>
+  <th>Time:</th>                 <td>12:57:18</td>     <th>  Log-Likelihood:    </th> <td>-3.4709e+06</td>
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>893552</td>      <th>  AIC:               </th>  <td>1.326e+07</td> 
+  <th>No. Observations:</th>      <td>471605</td>      <th>  AIC:               </th>  <td>6.942e+06</td> 
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>893545</td>      <th>  BIC:               </th>  <td>1.326e+07</td> 
+  <th>Df Residuals:</th>          <td>471597</td>      <th>  BIC:               </th>  <td>6.942e+06</td> 
 </tr>
 <tr>
-  <th>Df Model:</th>              <td>     6</td>      <th>                     </th>      <td> </td>     
+  <th>Df Model:</th>              <td>     7</td>      <th>                     </th>      <td> </td>     
 </tr>
 <tr>
   <th>Covariance Type:</th>      <td>nonrobust</td>    <th>                     </th>      <td> </td>     
@@ -16430,47 +16281,47 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
          <td></td>           <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>const</th>          <td>   90.8069</td> <td>    0.499</td> <td>  182.123</td> <td> 0.000</td> <td>   89.830</td> <td>   91.784</td>
+  <th>const</th>          <td>   65.8307</td> <td>    0.661</td> <td>   99.593</td> <td> 0.000</td> <td>   64.535</td> <td>   67.126</td>
 </tr>
 <tr>
-  <th>Qty</th>            <td>   -0.0434</td> <td>    0.002</td> <td>  -25.316</td> <td> 0.000</td> <td>   -0.047</td> <td>   -0.040</td>
+  <th>Qty</th>            <td>    0.4221</td> <td>    0.007</td> <td>   62.206</td> <td> 0.000</td> <td>    0.409</td> <td>    0.435</td>
 </tr>
 <tr>
-  <th>Cost</th>           <td> 1.812e+10</td> <td> 3.46e+10</td> <td>    0.524</td> <td> 0.600</td> <td>-4.96e+10</td> <td> 8.58e+10</td>
+  <th>Cost</th>           <td> 9.304e+09</td> <td> 2.51e+10</td> <td>    0.371</td> <td> 0.710</td> <td>-3.98e+10</td> <td> 5.84e+10</td>
 </tr>
 <tr>
-  <th>FOB Price</th>      <td>-1.812e+10</td> <td> 3.46e+10</td> <td>   -0.524</td> <td> 0.600</td> <td>-8.58e+10</td> <td> 4.96e+10</td>
+  <th>FOB Price</th>      <td>-9.304e+09</td> <td> 2.51e+10</td> <td>   -0.371</td> <td> 0.710</td> <td>-5.84e+10</td> <td> 3.98e+10</td>
 </tr>
 <tr>
-  <th>AP Charges</th>     <td>    0.2554</td> <td>    0.046</td> <td>    5.547</td> <td> 0.000</td> <td>    0.165</td> <td>    0.346</td>
+  <th>AP Charges</th>     <td>    0.1799</td> <td>    0.063</td> <td>    2.877</td> <td> 0.004</td> <td>    0.057</td> <td>    0.302</td>
 </tr>
 <tr>
-  <th>AR Charges</th>     <td>    0.3464</td> <td>    0.035</td> <td>    9.887</td> <td> 0.000</td> <td>    0.278</td> <td>    0.415</td>
+  <th>AR Charges</th>     <td>    0.9503</td> <td>    0.087</td> <td>   10.875</td> <td> 0.000</td> <td>    0.779</td> <td>    1.122</td>
 </tr>
 <tr>
-  <th>Grower Charges</th> <td>  872.6586</td> <td> 1664.122</td> <td>    0.524</td> <td> 0.600</td> <td>-2388.966</td> <td> 4134.283</td>
+  <th>Grower Charges</th> <td>  121.3811</td> <td>  326.834</td> <td>    0.371</td> <td> 0.710</td> <td> -519.203</td> <td>  761.966</td>
 </tr>
 <tr>
-  <th>Profit</th>         <td> 1.812e+10</td> <td> 3.46e+10</td> <td>    0.524</td> <td> 0.600</td> <td>-4.96e+10</td> <td> 8.58e+10</td>
+  <th>Profit</th>         <td> 9.304e+09</td> <td> 2.51e+10</td> <td>    0.371</td> <td> 0.710</td> <td>-3.98e+10</td> <td> 5.84e+10</td>
 </tr>
 <tr>
-  <th>Order Qty</th>      <td>    0.0087</td> <td> 7.49e-05</td> <td>  115.802</td> <td> 0.000</td> <td>    0.009</td> <td>    0.009</td>
+  <th>Order Qty</th>      <td>    0.0133</td> <td>    0.000</td> <td>   93.556</td> <td> 0.000</td> <td>    0.013</td> <td>    0.014</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>711310.469</td> <th>  Durbin-Watson:     </th>   <td>   1.987</td>   
+  <th>Omnibus:</th>       <td>280989.878</td> <th>  Durbin-Watson:     </th>   <td>   1.993</td>   
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th>   <td> 0.000</td>   <th>  Jarque-Bera (JB):  </th> <td>236985122.955</td>
+  <th>Prob(Omnibus):</th>   <td> 0.000</td>   <th>  Jarque-Bera (JB):  </th> <td>253770328.424</td>
 </tr>
 <tr>
-  <th>Skew:</th>            <td> 2.831</td>   <th>  Prob(JB):          </th>   <td>    0.00</td>   
+  <th>Skew:</th>            <td> 1.437</td>   <th>  Prob(JB):          </th>   <td>    0.00</td>   
 </tr>
 <tr>
-  <th>Kurtosis:</th>        <td>82.581</td>   <th>  Cond. No.          </th>   <td>4.20e+23</td>   
+  <th>Kurtosis:</th>        <td>116.605</td>  <th>  Cond. No.          </th>   <td>1.12e+23</td>   
 </tr>
-</table><br/><br/>Notes:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.<br/>[2] The smallest eigenvalue is 2.57e-34. This might indicate that there are<br/>strong multicollinearity problems or that the design matrix is singular.
+</table><br/><br/>Notes:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.<br/>[2] The smallest eigenvalue is 1.36e-33. This might indicate that there are<br/>strong multicollinearity problems or that the design matrix is singular.
 </div>
 
 </div>
@@ -16529,7 +16380,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">mlxtend.frequent_patterns</span> <span class="kn">import</span> <span class="n">apriori</span><span class="p">,</span> <span class="n">association_rules</span>
@@ -16566,7 +16417,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\User\AppData\Roaming\Python\Python311\site-packages\mlxtend\frequent_patterns\fpcommon.py:109: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+<pre>D:\Applications\Python\lib\site-packages\mlxtend\frequent_patterns\fpcommon.py:109: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
   warnings.warn(
 </pre>
 </div>
@@ -16575,7 +16426,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 
 
 
@@ -16613,68 +16464,68 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>0</th>
-      <td>(NECTARINE)</td>
       <td>(APRICOT)</td>
-      <td>0.512991</td>
-      <td>0.063059</td>
-      <td>0.033577</td>
-      <td>0.065453</td>
-      <td>1.037967</td>
-      <td>0.001228</td>
-      <td>1.002562</td>
-      <td>0.075108</td>
+      <td>(NECTARINE)</td>
+      <td>0.06</td>
+      <td>0.51</td>
+      <td>0.03</td>
+      <td>0.54</td>
+      <td>1.04</td>
+      <td>0.00</td>
+      <td>1.05</td>
+      <td>0.04</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>(APRICOT)</td>
       <td>(NECTARINE)</td>
-      <td>0.063059</td>
-      <td>0.512991</td>
-      <td>0.033577</td>
-      <td>0.532468</td>
-      <td>1.037967</td>
-      <td>0.001228</td>
-      <td>1.041658</td>
-      <td>0.039040</td>
+      <td>(APRICOT)</td>
+      <td>0.51</td>
+      <td>0.06</td>
+      <td>0.03</td>
+      <td>0.07</td>
+      <td>1.04</td>
+      <td>0.00</td>
+      <td>1.00</td>
+      <td>0.08</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>(W PEACH)</td>
       <td>(APRICOT)</td>
-      <td>0.299840</td>
-      <td>0.063059</td>
-      <td>0.022072</td>
-      <td>0.073612</td>
-      <td>1.167358</td>
-      <td>0.003164</td>
-      <td>1.011392</td>
-      <td>0.204760</td>
+      <td>(W PEACH)</td>
+      <td>0.06</td>
+      <td>0.30</td>
+      <td>0.02</td>
+      <td>0.35</td>
+      <td>1.18</td>
+      <td>0.00</td>
+      <td>1.08</td>
+      <td>0.16</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>(APRICOT)</td>
       <td>(W PEACH)</td>
-      <td>0.063059</td>
-      <td>0.299840</td>
-      <td>0.022072</td>
-      <td>0.350021</td>
-      <td>1.167358</td>
-      <td>0.003164</td>
-      <td>1.077204</td>
-      <td>0.153014</td>
+      <td>(APRICOT)</td>
+      <td>0.30</td>
+      <td>0.06</td>
+      <td>0.02</td>
+      <td>0.07</td>
+      <td>1.18</td>
+      <td>0.00</td>
+      <td>1.01</td>
+      <td>0.21</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>(NECTARINE)</td>
       <td>(ORG PEACH)</td>
-      <td>0.512991</td>
-      <td>0.061302</td>
-      <td>0.036047</td>
-      <td>0.070268</td>
-      <td>1.146258</td>
-      <td>0.004599</td>
-      <td>1.009644</td>
-      <td>0.261999</td>
+      <td>(NECTARINE)</td>
+      <td>0.06</td>
+      <td>0.51</td>
+      <td>0.04</td>
+      <td>0.59</td>
+      <td>1.15</td>
+      <td>0.00</td>
+      <td>1.19</td>
+      <td>0.14</td>
     </tr>
   </tbody>
 </table>
@@ -16692,7 +16543,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rules</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
@@ -16713,7 +16564,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 
 
 
@@ -16751,68 +16602,68 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>131</th>
-      <td>(PEACH, RED PLUM)</td>
-      <td>(W PEACH, NECTARINE)</td>
-      <td>0.024740</td>
-      <td>0.137834</td>
-      <td>0.012363</td>
-      <td>0.499733</td>
-      <td>3.625615</td>
-      <td>0.008953</td>
-      <td>1.723412</td>
-      <td>0.742556</td>
+      <td>(RED PLUM, NECTARINE)</td>
+      <td>(PEACH, W PEACH)</td>
+      <td>0.02</td>
+      <td>0.14</td>
+      <td>0.01</td>
+      <td>0.53</td>
+      <td>3.77</td>
+      <td>0.01</td>
+      <td>1.82</td>
+      <td>0.75</td>
     </tr>
     <tr>
       <th>132</th>
-      <td>(W PEACH)</td>
-      <td>(NECTARINE, PEACH, RED PLUM)</td>
-      <td>0.299840</td>
-      <td>0.019470</td>
-      <td>0.012363</td>
-      <td>0.041233</td>
-      <td>2.117818</td>
-      <td>0.006526</td>
-      <td>1.022700</td>
-      <td>0.753850</td>
+      <td>(PEACH)</td>
+      <td>(NECTARINE, RED PLUM, W PEACH)</td>
+      <td>0.57</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>1.54</td>
+      <td>0.00</td>
+      <td>1.01</td>
+      <td>0.81</td>
     </tr>
     <tr>
       <th>133</th>
-      <td>(NECTARINE)</td>
-      <td>(W PEACH, PEACH, RED PLUM)</td>
-      <td>0.512991</td>
-      <td>0.014094</td>
-      <td>0.012363</td>
-      <td>0.024101</td>
-      <td>1.710022</td>
-      <td>0.005133</td>
-      <td>1.010254</td>
-      <td>0.852576</td>
+      <td>(W PEACH)</td>
+      <td>(PEACH, RED PLUM, NECTARINE)</td>
+      <td>0.30</td>
+      <td>0.02</td>
+      <td>0.01</td>
+      <td>0.04</td>
+      <td>2.13</td>
+      <td>0.01</td>
+      <td>1.02</td>
+      <td>0.76</td>
     </tr>
     <tr>
       <th>134</th>
-      <td>(PEACH)</td>
-      <td>(W PEACH, NECTARINE, RED PLUM)</td>
-      <td>0.564888</td>
-      <td>0.014199</td>
-      <td>0.012363</td>
-      <td>0.021887</td>
-      <td>1.541363</td>
-      <td>0.004342</td>
-      <td>1.007859</td>
-      <td>0.807203</td>
+      <td>(RED PLUM)</td>
+      <td>(NECTARINE, PEACH, W PEACH)</td>
+      <td>0.03</td>
+      <td>0.11</td>
+      <td>0.01</td>
+      <td>0.36</td>
+      <td>3.36</td>
+      <td>0.01</td>
+      <td>1.39</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <th>135</th>
-      <td>(RED PLUM)</td>
-      <td>(W PEACH, NECTARINE, PEACH)</td>
-      <td>0.034713</td>
-      <td>0.106423</td>
-      <td>0.012363</td>
-      <td>0.356164</td>
-      <td>3.346672</td>
-      <td>0.008669</td>
-      <td>1.387895</td>
-      <td>0.726411</td>
+      <td>(NECTARINE)</td>
+      <td>(PEACH, RED PLUM, W PEACH)</td>
+      <td>0.51</td>
+      <td>0.01</td>
+      <td>0.01</td>
+      <td>0.02</td>
+      <td>1.71</td>
+      <td>0.01</td>
+      <td>1.01</td>
+      <td>0.85</td>
     </tr>
   </tbody>
 </table>
