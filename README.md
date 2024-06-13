@@ -37,7 +37,7 @@
         <a href="DataPipeline.html" class="button">Data Pipeline Notebook</a><br>
 
     <h2>Sales Data Insights Notebook</h2>
-        <a href="SalesPatternsv2.html" class="button">Sales Insights Notebook</a><br>    
+        <a href="SalesPatterns.html" class="button">Sales Insights Notebook</a><br>    
     </div>
     
 </div>
